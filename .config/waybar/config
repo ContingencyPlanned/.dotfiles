@@ -1,0 +1,5 @@
+{
+	"layer": "top",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-right": ["clock"]
+}
