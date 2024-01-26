@@ -1,0 +1,19 @@
+* {
+	border: none;
+	border-radius: 0px;
+	font-family: "Source Code Pro Semibold";
+	font-size: 12px;
+	color: #dad6ff;
+}
+
+window#waybar {
+	background-color: transparent;
+}
+
+#workspaces button {
+	padding: 0 10px;
+}
+
+#workspaces button:hover {
+	background: #dad6ff
+}
