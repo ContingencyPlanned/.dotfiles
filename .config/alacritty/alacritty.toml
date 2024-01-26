@@ -1,0 +1,34 @@
+[colors.bright]
+black = "#5f5584"
+blue = "#6063ff"
+cyan = "#716cf8"
+green = "#dfffb2"
+magenta = "#c4b0ff"
+red = "#ff568a"
+white = "#beb7ff"
+yellow = "#ffe191"
+
+[colors.normal]
+black = "#2a2931"
+blue = "#6063ff"
+cyan = "#716cf8"
+green = "#dfffb2"
+magenta = "#c4b0ff"
+red = "#ff568a"
+white = "#beb7ff"
+yellow = "#ffe191"
+
+[colors.primary]
+background = "#2a2931"
+foreground = "#e7e3ff"
+
+[cursor.style]
+shape = "Underline"
+
+#[font]
+#family = "Source Code Pro Semibold"
+#style = "Semibold"
+
+[window]
+#opacity = 0.96
+opacity=0.5
