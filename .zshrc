@@ -1,12 +1,10 @@
 # ~/.zshrc
 
 # Alias
-alias ncm="ncmpcpp"
-alias ardour="/home/connor/downloads/app/ardour/gtk2_ardour/ardev"
-alias muvluv="wine '/home/connor/.wine/drive_c/Program Files (x86)/Muv-Luv/muvluv16.exe'"
-alias yiik="wine '/home/connor/games/YIIK A Postmodern RPG/YIIK A Postmodern RPG/YIIK A Postmodern RPG.exe'"
-alias touhou8="cd '/home/connor/games/Touhou 8 - Imperishable Night' && wine start Touhou08.exe"
 alias config='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+alias ncm="ncmpcpp"
+alias touhou8="cd '/home/connor/games/Touhou 8 - Imperishable Night' && wine start Touhou08.exe"
+alias touhou7="cd '/home/connor/games/Touhou 7 - Perfect Cherry Blossom' && wine start Touhou07.exe"
 
 # Variables
 export BROWSER="firefox"
