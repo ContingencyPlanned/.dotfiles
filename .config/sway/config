@@ -5,8 +5,9 @@
 # Read `man 5 sway` for a complete reference.
 
 input "type:keyboard" {
-	xkb_layout us
-	xkb_variant dvorak
+	xkb_layout  "us,us"
+	xkb_variant "dvorak,"
+	xkb_options "grp:alts_toggle"
 }
 
 ### Variables
@@ -18,8 +19,10 @@ set $left h
 set $down t
 set $up n
 set $right s
+
 # Your preferred terminal emulator
 set $term alacritty
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -28,7 +31,7 @@ set $menu /usr/bin | tofi-run | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/connor/.config/sway/bg.png fill
+output * bg /home/connor/.config/sway/lily.png fill
 
 output * mode 2560x1440@164.958Hz
 
@@ -225,4 +228,4 @@ hide_edge_borders smart
 
 include /etc/sway/config.d/*
 
-exec dbus-launch --exit-with-session & pipewire & pipewire-pulse & wireplumber & mpd
+exec dbus-launch --exit-with-session & mpd
