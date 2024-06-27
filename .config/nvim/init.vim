@@ -1,5 +1,8 @@
 syntax on
+colorscheme vim
 
+set notermguicolors
+set tabstop=4
 set smartindent
 set nu
 set hlsearch
