@@ -8,7 +8,7 @@
 XDG_DOWNLOAD_DIR="/home/connor/downloads/"
 XDG_MUSIC_DIR="/home/connor/music/"
 XDG_PICTURES_DIR="/home/connor/pictures/"
-XDG_DESKTOP_DIR="$HOME/"
+XDG_DESKTOP_DIR="/home/connor/desktop"
 XDG_TEMPLATES_DIR="$HOME/"
 XDG_PUBLICSHARE_DIR="$HOME/"
 XDG_DOCUMENTS_DIR="$HOME/documents"
