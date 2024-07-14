@@ -31,7 +31,7 @@ set $menu /usr/bin | tofi-run | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/connor/.config/sway/lily.png fill
+output * bg /home/connor/.config/sway/lily2.png fill
 
 output * mode 2560x1440@164.958Hz
 
