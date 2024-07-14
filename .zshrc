@@ -3,11 +3,11 @@
 # Alias
 alias config='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias ncm="ncmpcpp"
-alias touhou8="cd '/home/connor/games/Touhou 8 - Imperishable Night' && wine start Touhou08.exe"
+alias sudo='doas'
 alias touhou7="cd '/home/connor/games/Touhou 7 - Perfect Cherry Blossom' && wine start Touhou07.exe"
+alias touhou8="cd '/home/connor/games/Touhou 8 - Imperishable Night' && wine start Touhou08.exe"
 
 # Variables
-export BROWSER="firefox"
 export EDITOR="nvim"
 export PATH="$PATH:/home/connor/.local/bin:/home/connor/games"
 
@@ -35,7 +35,7 @@ zle -N down-line-or-beginning-search
 autoload -Uz promptinit
 promptinit
 
-PROMPT='%F{cyan}%n%f%F{magenta}@%F{yellow}%m%f %F{magenta}%B%~%b%f '
+PROMPT='%F{white}%n%f%F{yellow}@%F{green}%m%f %F{blue}%B%~%b%f '
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
